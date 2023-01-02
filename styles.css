@@ -1,0 +1,28 @@
+body {
+    margin: 20px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #2b2839;
+}
+
+.myFace {
+    width: 150px;
+    justify-content: space-around;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.myFace:hover {
+    box-shadow: 5px 5px 0 #ff4a65;
+  }
+
+.card {
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: #00DC70;
+    border-bottom: 15px solid #ff4a65;
+    border-radius: 50px;
+}
